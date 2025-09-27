@@ -1,11 +1,13 @@
 import Name from "./index";
 
-
+//INJECTING JAVASCRIPT IN JSX FUNCTION OR COMPONENT
 function App() {
- 
+ const username = "fizanoor"
 
   return (
-  <Name />
+  <div>
+    <h1>Hello {username}</h1>
+  </div>
   )
 }
 

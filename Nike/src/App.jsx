@@ -13,7 +13,6 @@ function App() {
     <main className='relative'>
       <section><Nav /></section>
 
-      {/* use standard Tailwind padding classes */}
       <section className='xl:pr-6 pr-4 pb-6'><Hero /></section>
 
       <section className='sm:px-10 px-8 sm:py-24'><PopularProducts /></section>

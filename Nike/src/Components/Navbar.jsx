@@ -18,7 +18,7 @@ const Navbar = () => {
   ]
   return (
     <header className='sm:px-10 px-8 z-10 w-full py-8 flex justify-center items-center'>
-        <nav className='flex justify-between items-center max-w-[1440px] mx-auto gap-50'>
+        <nav className='flex justify-between items-center  z-[1000] max-w-[1440px] mx-auto gap-50'>
             <a href='/'>
                 <img src ={headerlogo}
                 width={130}

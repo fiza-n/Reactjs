@@ -20,7 +20,7 @@ function App() {
       <section className='sm:px-10 px-8 sm:py-24'><Services /></section>
       <section className='sm:px-10 px-8 sm:py-24'><Specialoffers /></section>
 
-      <section className='sm:px-10 px-8 sm:py-24 bg-blue-200'><Customerreviews /></section>
+      <section className='sm:px-10 px-8 sm:py-24 bg-blue-50'><Customerreviews /></section>
       <section className='sm:px-10 px-8 sm:py-32 py-16 w-full'><Subscribe /></section>
       <section className='sm:px-10 px-8 bg-black pt-8 pb-8'><Footer /></section>
     </main>

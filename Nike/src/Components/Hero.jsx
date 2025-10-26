@@ -56,16 +56,16 @@ const Hero = () => {
           <p className="text-gray-600  font-montserrat">Customers</p>
         </div>
       </div>
-      <div className="absolute  flex justify-center items-start right-0 top-0 z-0 max-xl:hidden w-[60%] h-[700px] bg-blue-50 bg-cover bg-hero bg-center">
+      <div className="absolute  flex justify-center items-start right-0 top-0 z-0 max-xl:hidden w-[60%] h-[700px] bg-blue-50 bg-cover bg-hero  bg-center">
      <div className="relative top-20">
          <img src={bigShoeImg} alt="Shoe1"  width={500} height={500}  className="top-30"/>
      </div>
      <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
-      {shoe.map((shoe) => (
-        <div key={shoe} >
+      {shoe.map((shoes) => (
+        <div key={shoes} >
           <ShoeCard 
-          imgURL = {shoe}
-          changetoBigshoe ={(shoe)=>{setBigShoeImg(shoe)}}
+          imgURL = {shoes}
+          changetoBigshoe ={(shoes)=>{setBigShoeImg(shoes)}}
           bigShoeImg ={bigShoeImg}/>
         </div>
       ))}

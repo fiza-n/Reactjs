@@ -7,7 +7,6 @@ const [data,setData] = useState({});
         fetch(`https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json`)
         .then((res)=> res.json())//converting into json
         .then((res) => setData(res[currency]))//setting data as an object
-        .catch((err) => console.log(err))
        
     },[currency])//dependency on currency
     return data;//returning the api data

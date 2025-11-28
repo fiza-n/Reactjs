@@ -55,7 +55,7 @@ const WeatherApp = () => {
       return clearIcon;
       })
 
-    } catch (error) {
+    } catch (error){
       setWeatherData((Icon) => ({ ...p, loading: false, error: error.message || "Failed to fetch" }))
     }
   }
